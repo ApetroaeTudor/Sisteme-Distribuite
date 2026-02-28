@@ -1,0 +1,8 @@
+tema cerinte:
+    regula input de la user
+    VARSTA sa fie intre un minim si un maxim
+    NUME sa nu contina decat litere mari
+
+    la finalizarea unui transaction se trimite un message bean
+    Thread separat:
+        -> 

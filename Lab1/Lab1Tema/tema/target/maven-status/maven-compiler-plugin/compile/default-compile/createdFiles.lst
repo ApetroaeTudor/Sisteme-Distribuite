@@ -1,0 +1,10 @@
+Defines.class
+DBManagerServlet.class
+ReadServlet.class
+DumpJsonServlet.class
+SearchServlet.class
+DeleteServlet.class
+UpdateServlet.class
+CreateServlet.class
+beans/StudentBean.class
+HelloServlet.class

@@ -10,3 +10,9 @@
   * JSON database dump
   * glassfish7 deploy ready
   * Note: before running change the db path in the Defines.java class
+
+### Lab2
+* Lab ex + Homework
+  * Java EE CRUD using EclipseLink JPA 
+  * Background thread that monitors sqlite db insertions and generates warnings
+  * Implementation here sucks

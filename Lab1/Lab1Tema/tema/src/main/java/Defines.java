@@ -12,5 +12,5 @@ public class Defines {
     public static final String OPERATION_FAILED       = "operation_failed";
 
     // schimba asta daca dai clone la repo
-    public static final String dbUrl                  = "jdbc:sqlite:/home/tudor/AN3/SD/Lab1/Storage/students.db";
+    public static final String dbUrl                  = "jdbc:sqlite:students.db";
 }

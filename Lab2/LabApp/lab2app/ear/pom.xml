@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>sd.lab</groupId>
+    <artifactId>lab2app</artifactId>
+    <version>1</version>
+  </parent>
+
+  <artifactId>ear</artifactId>
+  <packaging>ear</packaging>
+
+  <name>ear assembly</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>sd.lab</groupId>
+      <artifactId>ejbs</artifactId>
+      <type>ejb</type>
+    </dependency>
+    <dependency>
+      <groupId>sd.lab</groupId>
+      <artifactId>servlet</artifactId>
+      <type>war</type>
+    </dependency>
+    <dependency>
+      <groupId>sd.lab</groupId>
+      <artifactId>primary-source</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>sd.lab</groupId>
+      <artifactId>logging</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>8.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-ear-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

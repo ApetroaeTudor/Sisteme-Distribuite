@@ -1,0 +1,3 @@
+ejb/StudentEntity.class
+interfaces/StatelessSessionBeanRemote.class
+ejb/StatelessSessionBeanImpl.class

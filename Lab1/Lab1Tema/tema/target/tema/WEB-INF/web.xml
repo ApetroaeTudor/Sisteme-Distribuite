@@ -1,0 +1,88 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DBManager</servlet-name>
+    <servlet-class>DBManagerServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>Create</servlet-name>
+    <servlet-class>CreateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Read</servlet-name>
+    <servlet-class>ReadServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DumpJson</servlet-name>
+    <servlet-class>DumpJsonServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DBManager</servlet-name>
+    <url-pattern>/hit/db</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>Create</servlet-name>
+    <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Read</servlet-name>
+    <url-pattern>/read/all</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DumpJson</servlet-name>
+    <url-pattern>/dump_json</url-pattern>
+  </servlet-mapping>
+</web-app>
