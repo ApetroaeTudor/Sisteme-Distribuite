@@ -98,7 +98,5 @@ public class MonitoringManager extends Thread {
                 System.out.println(e.getMessage());
             }
         }
-
     }
-
 }
