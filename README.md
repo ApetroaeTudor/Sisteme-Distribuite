@@ -15,4 +15,10 @@
 * Lab ex + Homework
   * Java EE CRUD using EclipseLink JPA 
   * Background thread that monitors sqlite db insertions and generates warnings
-  * Implementation here sucks
+  * Implementation sucks
+
+### Lab3
+* Spring Framework Service Oriented Weather App
+  * LabApp: The spring controller acts as an orchestrator
+  * LabAppChained: The services are part of a chain
+  * Features: The app will get the current the weather forecast for today, and display a warning if the maximum temperature exceeds a limit. Certain locations can be blacklisted 
